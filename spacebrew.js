@@ -24,7 +24,7 @@ spacebrew.createServer = function( opts ){
 
     var expose = {};
     opts = opts || {};
-    opts.port = opts.port || (process.env.VMC_APP_PORT || 8888);
+    opts.port = opts.port || 30001;
     opts.host = opts.host || '0.0.0.0';
     opts.ping = opts.ping || true;
     opts.forceClose = opts.forceClose || false;

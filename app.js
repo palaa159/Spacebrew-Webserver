@@ -34,7 +34,7 @@ var	forever = require('forever-monitor')
 var app = connect.createServer(
 	connect.static(__dirname)
 );
-app.listen(process.env.VCAP_APP_PORT || 8888);
+app.listen(30000);
 
 /**
  * check if data/log directory already exists, and if not, then create it.
