@@ -3,9 +3,9 @@ var sys = require('sys');
 var url = require('url');
 var wsc = require('websocket').client;
 
-var port = 30000;
+var port = 30010;
 var spacebrewHost = 'localhost';
-var spacebrewPort = 30000;
+var spacebrewPort = 30001;
 var clients = {};
 var TIMEOUT = 12*60*60; // 12 hour timeout
 var DEBUG = true
