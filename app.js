@@ -34,7 +34,7 @@ var	forever = require('forever-monitor')
 var app = connect.createServer(
 	connect.static(__dirname + '/admin');
 );
-app.listen(30010);
+app.listen(30001);
 
 /**
  * check if data/log directory already exists, and if not, then create it.
