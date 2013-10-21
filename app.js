@@ -32,7 +32,7 @@ var	forever = require('forever-monitor')
 	;
 
 var app = connect.createServer(
-	connect.static(__dirname)
+	connect.static(__dirname + '/admin');
 );
 app.listen(30010);
 
